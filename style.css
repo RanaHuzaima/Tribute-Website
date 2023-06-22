@@ -75,3 +75,14 @@ footer{
 footer p{
     font-size: 18px;
 }
+@media (max-width: 500px){
+    .main{
+        flex-direction: column;
+    }
+    .main .top_section{
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+}
